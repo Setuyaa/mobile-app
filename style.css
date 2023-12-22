@@ -1,0 +1,251 @@
+@media (min-width: 480px){
+  :root {
+    --color-1: #21d4fd;
+    --color-2: #b721ff;
+    --color-3: #08aeea;
+    --color-4: #2af598;
+  }
+  .Header {
+    position: relative;
+    height: 60vh;
+    display: block;
+  }
+  body {
+    background: linear-gradient(70deg, rgba(118, 42, 240, 1), rgb(39, 183, 240));
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+  .Header-background {
+    background-image: linear-gradient(-32deg, #80C2FF, #D96DFF);
+    background-size: 133% 133%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 110%;
+    height: 469px;
+    transform: skewY(-10deg);
+    overflow: hidden;
+    margin-top: -10rem;
+    margin-left: -1rem;
+    /* display: inline-block; */
+    /* background-color: transparent; */
+    /* / If you want to set the width and height of the element /
+    .header-background {
+      width: 430px;
+      height: 469px;
+    }
+    
+    / If you want the element to be displayed as an inline element /
+    .header-background {
+      display: inline-block;
+    }
+    
+    / If you want the element to have a transparent background /
+    .header-background {
+      background-color: transparent;
+    }
+   */
+  }
+  /* .Header-background {
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    width: 848.762px;
+    height: 609.234px;
+    background:linear-gradient(180deg, #80C2FF 0%, rgba(217, 109, 255, 0.00) 100%);
+    transform-origin: 0 0;
+    transform:rotate(-47.176deg);
+    overflow: hidden;
+    z-index: -1;
+    /* flex-shrink: 0; */
+  /* .Header-background::before,
+  .Header-background::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 33.333333333333336%;
+    opacity: 0.3;
+    filter: blur(15px);
+  } */
+  /* .Header-background::before {
+    background: #2af598;
+    right: 0;
+  }
+  .Header-background::after {
+    background: var(--color-2);
+    bottom: 0;
+  } */
+}
+@media(min-width: 1100px) {
+body {
+    background: linear-gradient(70deg, rgba(118, 42, 240, 1), rgb(39, 183, 240));
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.logo {
+    background: url('11.png') no-repeat;
+    width: 100%;
+    height: 4rem;
+    z-index: 2;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+.footer {
+     position:relative;
+     right: 0;
+     bottom: 0;
+     text-align: center; 
+     width: 100%;   
+     font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+:root {
+  --color-1: #21d4fd;
+  --color-2: #b721ff;
+  --color-3: #08aeea;
+  --color-4: #2af598;
+}
+.Header {
+  position: relative;
+  height: 60vh;
+  display: block;
+}
+.Header-background {
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  width: 120%;
+  height: 100%;
+  background: linear-gradient(19deg, var(--color-1), var(--color-2));
+  transform-origin: 1 1;
+  transform: skewY(-10deg);
+  overflow: hidden;
+  z-index: -1;
+}
+.Header-background::before,
+.Header-background::after {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 33.333333333333336%;
+  opacity: 0.3;
+  filter: blur(15px);
+}
+.Header-background::before {
+  background: #2af598;
+  right: 0;
+}
+.Header-background::after {
+  background: var(--color-2);
+  bottom: 0;
+}
+.Header-content {
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  min-width: 1100px;
+  /* padding-right: 4rem; */
+  margin: 0 2rem;
+  display:flex;
+}
+@media (min-width: 58rem) {
+  .Header-content {
+    text-align: left;
+    padding-left: 6rem;
+    max-width: 100rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.Header-hero{
+    width: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Header-hero h1,
+.Header-hero p {
+  color: #fff;
+  text-shadow: 0 0.5rem 1rem rgba(50,0,100,0.1);
+}
+.Header-hero h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+.Header-hero p {
+   font-size: 1.5rem;
+}
+
+.Button {
+  padding: 1rem 1.5rem;
+  border: 0;
+  /* margin-left: 30rem;
+  margin-top: 6rem; */
+  color: var(--color-3);
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #fff;
+  border-radius: 3px;
+  transition: all 0.2s;
+  cursor: pointer;
+  box-shadow: 0 1.75rem 2rem -0.4rem rgba(50,0,100,0.15);
+}
+.Button:hover {
+  color: var(--color-4);
+  box-shadow: 0 1.75rem 3rem 0rem rgba(50,0,100,0.1);
+  transform: scale(1.05);
+}
+.Button:active {
+  box-shadow: 0 1.75rem 2.5rem -0.2rem rgba(50,0,100,0.125);
+  transform: scale(1.025);
+}
+ .Iphone {
+    background-image: url('phone1.png');
+    width: 700px;
+    height: 400px;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: inline-block;
+ }
+.info {
+    min-width: 1100px;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    margin: 0 auto;
+    display:flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec_desc {
+    margin: 0 12rem 2rem 12rem;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    text-shadow: 0 0.5rem 1rem rgba(50,0,100,0.1);
+    margin-bottom: 4rem;
+    text-align: center;
+}
+ .info .scan {
+    width:30%;
+    background-image: url('21.png');
+    height:250px;
+    background-repeat: no-repeat;
+    margin-left:4rem;
+ }
+ .info .secure {
+    width: 60%;
+    text-transform: uppercase;
+    padding-top: 6rem;
+    font-size: 2rem;
+    color: rgb(39, 240, 190);
+ }
+}
